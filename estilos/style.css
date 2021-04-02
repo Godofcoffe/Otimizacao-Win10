@@ -1,6 +1,6 @@
 * {
-    font-family: sans-serif;
-    font-size: 16px;
+    font-family: monospace, sans-serif;
+    font-size: 20px;
 }
 
 body  {
@@ -22,13 +22,13 @@ a:hover {
 
 #t1 {
     padding-left: 30px;
-    padding-top: 20px;
+    padding-top: 5px;
     color: #724E91;
-    font-size: 36px;
+    font-size: 48px;
 }
 .t2 {
     color: #451F55;
-    font-size: 48px;
+    font-size: 62px;
 }
 
 #titulo_principal {
@@ -37,7 +37,7 @@ a:hover {
 
 #index {
     float: right;
-    margin: 30px;
+    margin: 10px;
 }
 
 #bloco-de-texto {
