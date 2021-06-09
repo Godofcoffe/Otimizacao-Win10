@@ -10,14 +10,29 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
   </head>
   <body>
-      <div class="container-fluid">
+
+
+     <!-- Titulo -->
+    <div class="container-fluid">
         <header class='bg-primary'>
             <div id="titulo">
                 <h3>Algumas dicas para</h3>
                 <h2>aumentar o desempenho</h2>
                 <h1>do seu pc</h1>
             </div>
-            <div id="index" class='float-md-end'>
+        </header>
+    </div>
+    <!-- fim do Titulo-->
+
+
+    <!-- Corpo-->
+    <div class="container">
+
+
+        <!-- Navegação-->
+        <div class="row">
+            
+            <div id="index" class='col-sm-3'>
                 <ul>
                     <li>
                         Configurações:
@@ -58,46 +73,150 @@
                 </ul>
             </div>
             
-        </header>
-        
-      </div>
-      <div class="container">
-        <section id='apresentação'>
-            Esse blog está sendo feito no desejo de compartilhar meus conhecimentos da época de "jogos para pc fraco", onde eu tirei informações de diversos outros lugares e irei acumulalos aqui.
-        </section>
-        
-        <main>
-            <section>
-                <h2>
-                    Configurações:
-                </h2>
-                <p>
-                    Algumas mudanças em Menu Iniciar > Configurações.
-                </p>
-                <div>
-                    <p>
-                        Vá em <strong>Privacidade > Aplicativos em Segundo Plano</strong> em Segundo Plano e desative a caixa de seleção para permitir a execução. 
-                    </p>
-                    <br>
-                    <img src="img-procedimentos/configs/passo1.PNG" alt="">
-                </div>
-                <div>
-                    <p>
-                        Depois em <strong>Aplicativos > Aplicativos e Recursos</strong>, desistale todos os Apps que você tiver certeza que não irá usar.
-                    </p>
-                    <br>
-                    <img src="img-procedimentos/configs/passo2.PNG" alt="">
-                </div>
-                <div>
-                    <p>
-                        Ainda em <strong>Aplicativos</strong> em <strong>Inicialização</strong> desmarque os Apps que não queira que inicie com o Windows, se não houver nada de grande importancia, deixe apenas o Windows Security.
-                    </p>
-                    <br>
-                    <img src="img-procedimentos/configs/passo3.PNG" alt="">
-                </div>
+            <!-- fim da navegação-->
+
+
+            <!-- conteudo geral-->
+            <div class="col-md ">
+                <section id='apresentação'>
+                    Esse blog está sendo feito no desejo de compartilhar meus conhecimentos da época de "jogos para pc fraco" no meu notebook das casas bahia, onde eu tirei informações de diversos outros lugares e irei acumulalos aqui.
+                </section>
                 
-            </section>
-        </main>
-      </div>
+                <main>
+                    <section>
+                        <h2>
+                            Configurações:
+                        </h2>
+                        <p>
+                            Algumas mudanças em Menu Iniciar > Configurações.
+                        </p>
+                        <div>
+                            <p id="privacidade">
+                                Vá em <strong>Privacidade > Aplicativos em Segundo Plano</strong> e desative a opção para permitir a execução. 
+                            </p>
+                            <br>
+                            <img src="img-procedimentos/configs/passo1.PNG" alt="">
+                            <br>
+                            <br>
+                            <p>
+                                Os aplicativos não seram afetados por isso, apenas irá limitar que eles não continuem sendo executados depois de fecha-los.
+                            </p>
+                        </div>
+                        <div>
+                            <p id="apps">
+                                Depois em <strong>Aplicativos > Aplicativos e Recursos</strong>, desistale todos os Apps que você tiver certeza que não irá usar.
+                            </p>
+                            <br>
+                            <img src="img-procedimentos/configs/passo2.PNG" alt="">
+                        </div>
+                        <div>
+                            <p id="inicializaçao">
+                                Ainda em <strong>Aplicativos</strong> em <strong>Inicialização</strong> desmarque os Apps que não queira que inicie com o Windows, se não houver nada de grande importancia, deixe apenas o Windows Security.
+                            </p>
+                            <br>
+                            <img src="img-procedimentos/configs/passo3.PNG" alt="">
+                        </div>
+
+                        <h3 id='ops-energia'>
+                            Opções de Energia:
+                        </h3>
+                        <p>
+                            Agora vamos ajustar alguma configurações de como o notebook gerencia a bateria.
+                        </p>
+                        <div>
+                            <p>
+                                Na <strong>Área de Trabalho</strong>, no canto inferior direito clique com o botão direito no icone de bateria, e depois em <strong>Opções de Energia</strong>.
+                                <br>
+                                Também é possivel fazer isso com o painel de controle, Menu Iniciar > Painel de Controle > Hardware e sons > Opções de Energia.
+                            </p>
+                            <br>
+                            <img src="img-procedimentos/configs/passo4-bateria1.PNG" alt="">
+                            <br>
+                            <br>
+                            <p>
+                                Nessa janela, terá varios planos para você selecionar, irei dar um aviso, se o notebook estiver conectado diretamente no carregador, use o <strong>Alto Desempenho</strong>, ele melhora o desempenho do processador, porém consome muita energia, então se estiver somente na bateria não o use.
+                                <br>
+                                Caso use na tomanda com bastante frequência, tire a bateria do notebook para ajudar na vida util, porque a longo prazo pode ficar viciada.
+                            </p>
+                            <p>
+                                Aqui entre tanto nessa imagem especifica, não tem o plano de <strong>Alto Desempenho</strong>, então vamos cria-lo. Como na imagem a cima clique em <strong>Criar um plano de energia</strong>.
+                            </p>
+                            <img src="img-procedimentos/configs/passo5-bateria2.PNG" alt="">
+                            <br>
+                            <br>
+                            <p>
+                                Você ira entrar numa janela como essa a cima, selecione a opção de <strong>Alto Desempenho</strong> e em baixo terá uma caixa de texto onde você pode nomear o plano, recomendo deixar o proprio nome do plano de energia, finalize com <strong>Avançar</strong>.
+                            </p>
+                        </div>
+                        
+                        <h3 id="msconfig">
+                            MSConfig:
+                        </h3>
+                        <p>
+                            Agora vamos para algumas configurações mais avançadas.
+                        </p>
+                        <div>
+                            <p>
+                                Clique com o botão <strong>Windows + R</strong>, escreva msconfig e de OK.
+                            </p>
+                            <img src="img-procedimentos/configs/passo6-msconfig1.PNG" alt="">
+                            <br>
+                            <br>
+                            <p>
+                                Abrirá um janelinha de configurações, lá em cima clique na aba <strong>Serviços</strong>.
+                            </p>
+                            <img src="img-procedimentos/configs/passo7-msconfig2.png" alt="">
+                            <br>
+                            <br>
+                            <p>
+                                Em baixo, marque a opção de <strong>Ocultar todos os serviços Microsoft</strong> e só depois disso clique em <strong>Desativar tudo</strong>.
+                            </p>
+                            <p>
+                                Aqui irá desativar algumas funções de aplicativos, porém se esse item for essencial ele não será desativado de primeira, você terá que desativar manualmente e ainda ele pode ser iniciado pelo aplicativo se for necessário, então não há problemas de erros ou algo do tipo. Ele só parará de executar algumas coisas especificas.
+                            </p>
+                            <h3 id="extras">
+                                Extras:
+                            </h3>
+                            <p>
+                                Coisas a mais para fazer no msconfig.
+                            </p>
+                            <div>
+                                <p>
+                                    Na mesma janela, lá em cima clique na aba <strong>Inicialização do Sistema</strong>.
+                                </p>
+                                <p>
+                                    E depois em <strong>Opções Avançadas</strong>.
+                                </p>
+                                <img src="img-procedimentos/configs/extra1-msconfig1.png" alt="">
+                                <br>
+                                <br>
+                                <p>
+                                    Abrirá essa janela.
+                                </p>
+                                <img src="img-procedimentos/configs/extra1-msconfig2.png" alt="">
+                                <br>
+                                <br>
+                                <p>
+                                    Agora vamos ter algumas vertentes, se a caixa de seleção <strong>Número de processadores</strong> estiver desmarcada, não há nada para fazer.
+                                </p>
+                                <p>
+                                    Agora se ela estiver marcada, você terá 2 opções, você pode apenas desmarca-la ou selecionar o número máximo de processadores.
+                                </p>
+                                <p>
+                                    Com ela desmarcada, será assumido o valor padrão que é o número máximo.
+                                </p>
+                                <p>
+                                    Essa opção define com quantos processadores(núcleos) seram usado pelo notebook ou computador.
+                                </p>
+                            </div>
+                        </div>
+                        
+                    </section>
+                </main>
+            </div>
+        </div>
+        <!-- fim do conteudo geral-->
+    </div>
+    <!-- fim do corpo-->
   </body>
 </html>
