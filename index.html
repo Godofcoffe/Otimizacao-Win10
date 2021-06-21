@@ -65,10 +65,19 @@
                         Apps nativos:
                         <ul>
                             <li>
-                                <a href="#">Limpeza de Disco</a>
+                                <a href="#limpeza">Limpeza de Disco</a>
                             </li>
                             <li>
-                                <a href="#">Desfragmentador de Disco</a>
+                                <a href="#defrag">Desfragmentador de Disco</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <br>
+                    <li>
+                        Bons Hábitos:
+                        <ul>
+                            <li>
+                                <a href="#">Em Breve...</a>
                             </li>
                         </ul>
                     </li>
@@ -97,7 +106,7 @@
                                 Vá em <strong>Privacidade > Aplicativos em Segundo Plano</strong> e desative a opção para permitir a execução. 
                             </p>
                             <br>
-                            <img src="img-procedimentos/configs/passo1.PNG" alt="">
+                            <img src="img-procedimentos/configs/passo1.PNG" alt="" class="img-fluid">
                             <br>
                             <br>
                             <p>
@@ -109,14 +118,14 @@
                                 Depois em <strong>Aplicativos > Aplicativos e Recursos</strong>, desistale todos os Apps que você tiver certeza que não irá usar.
                             </p>
                             <br>
-                            <img src="img-procedimentos/configs/passo2.PNG" alt="">
+                            <img src="img-procedimentos/configs/passo2.PNG" alt="" class="img-fluid">
                         </div>
                         <div>
                             <p id="inicializaçao">
                                 Ainda em <strong>Aplicativos</strong> em <strong>Inicialização</strong> desmarque os Apps que não queira que inicie com o Windows, se não houver nada de grande importancia, deixe apenas o Windows Security.
                             </p>
                             <br>
-                            <img src="img-procedimentos/configs/passo3.PNG" alt="">
+                            <img src="img-procedimentos/configs/passo3.PNG" alt="" class="img-fluid">
                         </div>
 
                         <h3 id='ops-energia'>
@@ -132,7 +141,7 @@
                                 Também é possivel fazer isso com o painel de controle, Menu Iniciar > Painel de Controle > Hardware e sons > Opções de Energia.
                             </p>
                             <br>
-                            <img src="img-procedimentos/configs/passo4-bateria1.PNG" alt="">
+                            <img src="img-procedimentos/configs/passo4-bateria1.PNG" alt="" class="img-fluid">
                             <br>
                             <br>
                             <p>
@@ -143,7 +152,7 @@
                             <p>
                                 Aqui entre tanto nessa imagem especifica, não tem o plano de <strong>Alto Desempenho</strong>, então vamos cria-lo. Como na imagem a cima clique em <strong>Criar um plano de energia</strong>.
                             </p>
-                            <img src="img-procedimentos/configs/passo5-bateria2.PNG" alt="">
+                            <img src="img-procedimentos/configs/passo5-bateria2.PNG" alt="" class="img-fluid">
                             <br>
                             <br>
                             <p>
@@ -161,13 +170,13 @@
                             <p>
                                 Clique com o botão <strong>Windows + R</strong>, escreva msconfig e de OK.
                             </p>
-                            <img src="img-procedimentos/configs/passo6-msconfig1.PNG" alt="">
+                            <img src="img-procedimentos/configs/passo6-msconfig1.PNG" alt="" class="img-fluid">
                             <br>
                             <br>
                             <p>
                                 Abrirá um janelinha de configurações, lá em cima clique na aba <strong>Serviços</strong>.
                             </p>
-                            <img src="img-procedimentos/configs/passo7-msconfig2.png" alt="">
+                            <img src="img-procedimentos/configs/passo7-msconfig2.png" alt="" class="img-fluid">
                             <br>
                             <br>
                             <p>
@@ -189,13 +198,13 @@
                                 <p>
                                     E depois em <strong>Opções Avançadas</strong>.
                                 </p>
-                                <img src="img-procedimentos/configs/extra1-msconfig1.png" alt="">
+                                <img src="img-procedimentos/configs/extra1-msconfig1.png" alt="" class="img-fluid">
                                 <br>
                                 <br>
                                 <p>
                                     Abrirá essa janela.
                                 </p>
-                                <img src="img-procedimentos/configs/extra1-msconfig2.png" alt="">
+                                <img src="img-procedimentos/configs/extra1-msconfig2.png" alt="" class="img-fluid">
                                 <br>
                                 <br>
                                 <p>
@@ -212,7 +221,53 @@
                                 </p>
                             </div>
                         </div>
-                        
+                    </section>
+                    <section style="margin-top: 100px;">
+                        <h2>App Nativos:</h2>
+                        <p>
+                            Ferramentas que recomendo que sejao usadas frequentimente.
+                        </p>
+                        <div>
+                            <h4 id="limpeza" style="padding-top: 10px;">
+                                Limpeza de Disco
+                            </h4>
+                            <p>
+                                Abra-o em <strong>Menu Iniciar > Ferramentas Administrativas > Limpeza de Disco</strong>.
+                            </p>
+                            <img src="img-procedimentos/limpeza_disco/passo1.PNG" alt="" class="img-fluid">
+                            <br>
+                            <br>
+                            <p>
+                                Logo de cara aparecerá essa tela, não há muitos procedimentos, apenas dê um <strong>OK</strong>. Em seguida terá uma mensagem para confirmar, clique em <strong>Excluir Arquivos</strong>.
+                            </p>
+                            <p>
+                                Essa ferramenta vai apagar <strong>alguns</strong> arquivos temporários do disco(HDD), porém a maioria dos arquivos .temp não são apagados, os famosos diretórios: Temp, %Temp% e prefetch. Com isso estou desenvolvendo um pequeno executável para apagar todos esses arquivos com 2 cliques <a href="https://github.com/Godofcoffe/MaidOS" target="_blank" rel="external">MaidOS</a>.
+                            </p>
+                        </div>
+                        <div>
+                            <h4 id="defrag" style="padding-top: 10px;">Desfragmentador de Disco</h4>
+                            <p>
+                                Agora ainda em <strong>Ferramentas Administrativas</strong>, vá em <strong>Desfragmentador de Disco</strong>
+                            </p>
+                            <img src="img-procedimentos/defrag/passo1.PNG" alt="" class="img-fluid">
+                            <br>
+                            <br>
+                            <p>
+                                Primeiramente clique em <strong>Analizar</strong> e espere, se na unidade de Disco estiver como "Precisa de Otimização", clique em <strong>Otimizar</strong>(esse procedimento irá demorar um pouco). Quando terminado vá em <strong>Alterar configurações</strong>.
+                            </p>
+                            <img src="img-procedimentos/defrag/passo2.PNG" alt="" class="img-fluid">
+                            <br>
+                            <br>
+                            <p>
+                                Se estiver desmarcada, marque a primeira caixinha e ponha a frequência em <strong>Mensalmente</strong> e clique em <strong>OK</strong>.
+                            </p>
+                            <p>
+                                Essa ferramenta serve para organizar os dados na partição de disco(HDD), o modo de leitura e gravação de HDDs, cartões de memoria, SSDs e etc são de acesso aleatório, o que quer dizer que os dados não são gravados exatamente um atras do outro, mas sim meio que aonde caiba, o Desfragmentador tenta organizar um pouco. Isso acelera as coisas ao invez de ir até o final do disco para acessar algo, tudo já está meio que no começo num bloco só.
+                            </p>
+                            <p>
+                                Porém esse processo de copia muitas vezes em seguida a longo prazo pode fazer um SSD perder um pouco sua vida util, por isso precisa deixar a frequência em <strong>Mensalmente</strong>.
+                            </p>
+                        </div>
                     </section>
                 </main>
             </div>

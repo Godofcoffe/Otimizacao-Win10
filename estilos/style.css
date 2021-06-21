@@ -2,6 +2,10 @@
     box-sizing: border-box;
 }
 
+body {
+    background-color: #fff;
+}
+
 section>div {
     margin-top: 100px;
 }
@@ -36,17 +40,10 @@ a:visited {
 
 #titulo {
     color: azure;
-    padding: 20px;
+    padding: 30px;
     width: 40%;
 }
 
 #index {
     margin-top: 30px;
-}
-
-img {
-    max-width: 700px;
-    max-height: 700x;
-    width: auto;
-    height: auto;
 }
